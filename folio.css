@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: auto;
+    background-color: pink; /* For browsers that do not support gradients*/
+    background-image: linear-gradient(to top right, rgb(0, 174, 255), rgb(199, 145, 108), rgb(248, 103, 127));
+}
+
+main{
+    margin: 20px 40px;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    height: 550px;
+}
+
+header{
+    background-color: aqua;
+}
+
+#nam{
+    font-weight: 900;
+    font-size: small;  
+    position: sticky;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 900;
+    font-size: small;
+    padding: 0px 4px;
+    display: inline;
+}
+
+.linked{
+    float: right;
+}
+
+button{
+    width: 65px;
+    color: #ffffff;
+    height: 20px;
+    margin: 5px;
+    font-weight: 900;
+    font-size: 10px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+#pic{
+    margin: 0px;
+    float: left;
+    display: flexbox;
+}
+
+.page{
+    height: 230px;
+}
+
+img{
+    padding-right: 50px;
+}
+
+section{
+    margin-top: 50px;   
+}
+
+h1{
+    word-spacing: 3px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#pic-text{
+    margin-top: 5px;
+    padding-right: 170px;
+}
+
+#text{
+    padding-top: 50px;
+}
+
+.career{
+    width: 470px;
+    float: left;
+}
+
+h3{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.print{
+    font-size: 15px;
+    padding: 1px 10px;
+}
+
+.card-container {
+    display: grid;
+    padding: 35px 45px 20px 30px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+.card {
+    border: 1px solid rgb(167, 160, 160);
+    border-radius: 5px;
+    width: 45%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+  }
+
+.print2{
+    font-size: 9px;
+    text-align: center;
+    font-weight: 900;
+  }
+
+.cards{
+    width: 300px;
+    display:grid;
+}
